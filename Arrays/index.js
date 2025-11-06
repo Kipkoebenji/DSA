@@ -1,3 +1,5 @@
+//THIS IS BUBBLE SORT 
+
 function bubbleSort(arr) {
   let swapped;
   let n = arr.length;
@@ -16,3 +18,28 @@ function bubbleSort(arr) {
     return arr;
   }
 }
+
+const array = [12,7,8,5,1,17]
+console.log("array before sorting: ", array);
+const sortedArray = bubbleSort(array);
+console.log("array after sorting: ", sortedArray);
+
+//THIS IS SELECTION SORT
+
+function selectionSort(arr){
+  let n = arr.length
+  for(let i = 0; i < n - 1; i++){
+    let minIndex = i
+    for(let j = i + 1; j < n; j++){
+      if(arr[j] < arr[minIndex]){
+        minIndex = j
+      }
+
+      [arr[j], arr[minIndex]] = [arr[minIndex], arr[j]]
+    }
+  }
+}
+
+console.log("array before sorting: ", array);
+
+console.log("array after sorting: ", selectionSort(array));
