@@ -2,13 +2,18 @@
  * Algorithm: THIS IS BUBBLE SORT 
  *
  * Description:
- * [Brief description of what this algorithm does]
+ * Bubble Sort is an algorithm that sorts an array from the lowest value to the highest value.
+
+
  *
- * Time Complexity: O(?)
- * Space Complexity: O(?)
+ * Time Complexity:
+
+  Worst: O(n²)
+
+  Best (already sorted): O(n)
+
+* Space Complexity: O(1) (in-place sort)
  */
-
-
 
 function bubbleSort(arr) {
   let n = arr.length;
@@ -28,4 +33,5 @@ function bubbleSort(arr) {
   return arr;
 }
 
-
+const arr = [64, 34, 25, 12, 22, 11, 90, 5];
+console.log(bubbleSort(arr));
