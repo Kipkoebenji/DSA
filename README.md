@@ -2,7 +2,7 @@
 
 A comprehensive DSA learning path organized by phases, from fundamentals to competitive programming and real-world projects.
 
-## 📚 Learning Path
+##  Learning Path
 
 ### Phase 1: Fundamentals
 
@@ -43,7 +43,7 @@ A comprehensive DSA learning path organized by phases, from fundamentals to comp
 - [ ] **Autocomplete with Tries** - Search suggestions
 - [ ] **Mini Search Engine** - Inverted index, TF-IDF ranking
 
-## 📖 Structure
+## Structure
 
 Each topic folder contains:
 
@@ -51,11 +51,11 @@ Each topic folder contains:
 - `problems/` - Practice problems (3 per topic)
 - `implementations/` - Algorithm implementations (2 per topic)
 
-## 🎯 Interview Patterns
+## Interview Patterns
 
 See [interview-patterns.md](interview-patterns.md) for common problem-solving patterns.
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Start with Phase 1 (Fundamentals)
 2. Complete problems in each topic before moving forward
@@ -63,14 +63,14 @@ See [interview-patterns.md](interview-patterns.md) for common problem-solving pa
 4. Track your progress using checkboxes above
 5. Practice consistently!
 
-## 📝 Resources
+## Resources
 
 - [LeetCode](https://leetcode.com/)
 - [HackerRank](https://www.hackerrank.com/)
 - [Visualgo](https://visualgo.net/) - Algorithm visualizations
 - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
 
-## 💡 Tips
+## Tips
 
 - Understand the problem before coding
 - Start with brute force, then optimize
