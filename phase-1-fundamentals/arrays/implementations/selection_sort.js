@@ -1,15 +1,12 @@
 /**
- * Algorithm: selection Sort
+ * Algorithm: Selection Sort
  *
  * Description:
- * [Brief description of what this algorithm does]
+ * The Selection Sort algorithm finds the lowest value in an array and moves it to the front of the array. It then repeats this process for the remaining unsorted portion of the array until the entire array is sorted.
  *
- * Time Complexity: O(?)
- * Space Complexity: O(?)
+ * Time Complexity: O(n²)
+ * Space Complexity: O(1) (in-place sort) 
  */
-
-//THIS IS SELECTION SORT
-
 
 function selectionSort(arr){
   let n = arr.length
@@ -28,3 +25,7 @@ function selectionSort(arr){
 
   return arr
 }
+
+
+const arr = [64, 34, 25, 12, 22, 11, 90, 5];
+console.log(selectionSort(arr));
