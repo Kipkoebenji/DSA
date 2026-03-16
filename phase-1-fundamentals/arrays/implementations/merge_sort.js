@@ -2,8 +2,12 @@
  * Algorithm: THIS IS Merge Sort
  *
  * Description:
- * [Brief description of what this algorithm does]
+ * Divide the unsorted list into n sublists, each containing one element (a list of one element is considered sorted).
+ * Repeatedly merge sublists to produce new sorted sublists until there is only one sublist remaining. This will be the sorted list.
+ * 
  *
- * Time Complexity: O(?)
- * Space Complexity: O(?)
+ * Time Complexity: O(n log n)
+ * Space Complexity: O(n)
  */
+
+
