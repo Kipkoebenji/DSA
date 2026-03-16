@@ -12,6 +12,8 @@
  */
 
 function mergeSort(arr) {
+
+    // Base case: If the array has 0 or 1 element, it's already sorted
     if (arr.length <= 1) {
         return arr;
     }
