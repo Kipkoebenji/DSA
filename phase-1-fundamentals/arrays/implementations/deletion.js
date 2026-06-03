@@ -10,7 +10,7 @@
 
 function deletion(arr, position) {
     let n = arr.length;
-    let k = position;
+    let k = position;x
 
     console.log("Before:", arr);
 
